@@ -23,7 +23,7 @@ def secant(p0,p1,tol,n0):
         p1 = p
         q1 = q
         if(abs(p-p1)>tol):
-            print("Method failed.")
+            print("Method failed at N iterations, N:.", i)
             break;
         
 
